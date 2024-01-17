@@ -1,0 +1,23 @@
+#pet-container{
+    display: flex;
+    gap: 20px;
+}
+.pet{
+    width: 120px;
+    height: 40px;
+    border: 2px solid black;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: red;
+    font-size: 2em;
+}
+.pet:hover{
+    background-color: yellow;
+    cursor: pointer;
+}
+
+.selected{
+    background-color: blue;
+}
